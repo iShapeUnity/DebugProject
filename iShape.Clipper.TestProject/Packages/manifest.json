@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.ishape.clipper": "file:/Users/nailsharipov/Home_Projects/Unity/iShape/Clipper",
+    "com.ishape.clipper": "file:./../../../Clipper",
     "com.ishape.geometry": "https://github.com/iShapeUnity/Geometry.git",
     "com.ishape.support": "https://github.com/iShapeUnity/Support.git",
     "com.unity.collab-proxy": "1.2.16",
