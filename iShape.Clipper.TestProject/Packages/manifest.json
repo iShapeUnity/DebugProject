@@ -46,15 +46,5 @@
   },
   "testables": [
     "com.ishape.clipper"
-  ],
-  "lock": {
-    "com.ishape.geometry": {
-      "hash": "fb463548fc60c46d4da9dcec86d5a887229f4f4a",
-      "revision": "HEAD"
-    },
-    "com.ishape.support": {
-      "hash": "039ead22f1657014b1d3b86b04bc74929415261c",
-      "revision": "HEAD"
-    }
-  }
+  ]
 }
