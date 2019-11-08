@@ -24,12 +24,18 @@
         <e p="PinSequence.cs" t="Include" />
       </e>
     </e>
+    <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Shape" t="Include">
+      <e p="ShapeSubtractExt.cs" t="Include" />
+      <e p="ShapeUnionExt.cs" t="Include" />
+      <e p="SubtractSolution.cs" t="Include" />
+    </e>
     <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Util" t="Include">
       <e p="Corner.cs" t="Include" />
       <e p="Rect.cs" t="Include" />
     </e>
     <e p="$PROJECT_DIR$/../../Clipper/Tests/Editor/Tests" t="Include">
       <e p="CornerTests.cs" t="Include" />
+      <e p="PinPathTests.cs" t="Include" />
     </e>
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
