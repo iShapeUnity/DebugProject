@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "com.ishape.clipper": "file:./../../../Clipper",
     "com.ishape.geometry": "https://github.com/iShapeUnity/Geometry.git",
+    "com.ishape.clipper": "file:./../../../Clipper",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ext.nunit": "1.0.0",
     "com.unity.ide.rider": "1.1.0",
@@ -48,7 +48,7 @@
   ],
   "lock": {
     "com.ishape.geometry": {
-      "hash": "fb463548fc60c46d4da9dcec86d5a887229f4f4a",
+      "hash": "303959545ba3a1876f7ed5164f4db51aa219efda",
       "revision": "HEAD"
     }
   }
