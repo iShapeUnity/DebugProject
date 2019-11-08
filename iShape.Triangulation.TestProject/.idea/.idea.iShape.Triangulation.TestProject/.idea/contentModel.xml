@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="iShape.Triangulation.Editor.Tests.csproj" t="IncludeRecursive" />
+      <e p="iShape.Triangulation.Runtime.csproj" t="IncludeRecursive" />
+      <e p="iShape.Triangulation.TestProject.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$PROJECT_DIR$/../../Triangulation/Runtime/iShape/Triangulation/Shape" t="Include">
+      <e p="Delaunay" t="Include">
+        <e p="Delaunator.cs" t="Include" />
+        <e p="DelaunayTriangulationExt.cs" t="Include" />
+        <e p="Side.cs" t="Include" />
+        <e p="SliceBuffer.cs" t="Include" />
+        <e p="Triangle.cs" t="Include" />
+        <e p="TriangleStack.cs" t="Include" />
+      </e>
+      <e p="LayoutExt.cs" t="Include" />
+      <e p="Link.cs" t="Include" />
+      <e p="LinkNature.cs" t="Include" />
+      <e p="MonotoneLayout.cs" t="Include" />
+      <e p="NavigatorExt.cs" t="Include" />
+      <e p="ShapeNavigator.cs" t="Include" />
+      <e p="Slice.cs" t="Include" />
+      <e p="TriangulationExt.cs" t="Include" />
+    </e>
+    <e p="$PROJECT_DIR$/../../Triangulation/Runtime/iShape/Triangulation/Util" t="Include">
+      <e p="IntTriangle.cs" t="Include" />
+    </e>
+    <e p="$PROJECT_DIR$/../../Triangulation/Tests/Editor/Triangulation" t="Include">
+      <e p="ComplexDelaunayTests.cs" t="Include" />
+      <e p="ComplexPlainTests.cs" t="Include" />
+      <e p="Data" t="Include">
+        <e p="ComplexTests.cs" t="Include" />
+        <e p="MonotoneTests.cs" t="Include" />
+      </e>
+      <e p="MonotoneDelaunayTests.cs" t="Include" />
+      <e p="MonotonePlainTests.cs" t="Include" />
+      <e p="Util" t="Include">
+        <e p="IntArrayExt.cs" t="Include" />
+        <e p="Triangle.cs" t="Include" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_iShape.Triangulation.TestProject.-1415415085.00" t="ExcludeRecursive" />
+  </component>
+</project>

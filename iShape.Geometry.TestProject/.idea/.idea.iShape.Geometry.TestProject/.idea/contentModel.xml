@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_iShape.Geometry.TestProject.1892112955.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="iShape.Geometry.Editor.Tests.csproj" t="IncludeRecursive" />
       <e p="iShape.Geometry.Runtime.csproj" t="IncludeRecursive" />
@@ -11,6 +9,10 @@
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp/bin" t="ExcludeRecursive" />
     </e>
+    <e p="$PROJECT_DIR$/../../Geometry/Runtime/iShape/Collection" t="Include">
+      <e p="DynamicArray.cs" t="Include" />
+      <e p="NativeArrayExtension.cs" t="Include" />
+    </e>
     <e p="$PROJECT_DIR$/../../Geometry/Runtime/iShape/Geometry" t="Include">
       <e p="IntGeom.cs" t="Include" />
       <e p="IntShape.cs" t="Include" />
@@ -18,10 +20,13 @@
       <e p="PlainPathList.cs" t="Include" />
       <e p="PlainShape.cs" t="Include" />
       <e p="Shape.cs" t="Include" />
+      <e p="Vector2Extension.cs" t="Include" />
       <e p="Vertex.cs" t="Include" />
     </e>
     <e p="$PROJECT_DIR$/../../Geometry/Tests/Editor/Tests" t="Include">
       <e p="GeometryTests.cs" t="Include" />
     </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_iShape.Geometry.TestProject.883502551.00" t="ExcludeRecursive" />
   </component>
 </project>
