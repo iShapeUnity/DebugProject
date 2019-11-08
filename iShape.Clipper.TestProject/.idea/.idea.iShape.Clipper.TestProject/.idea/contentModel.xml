@@ -32,8 +32,11 @@
       <e p="Rect.cs" t="Include" />
     </e>
     <e p="$PROJECT_DIR$/../../Clipper/Tests/Editor/Tests" t="Include">
-      <e p="CornerTests.cs" t="Include" />
-      <e p="PinPathTests.cs" t="Include" />
+      <e p="Clipper" t="Include">
+        <e p="CornerTests.cs" t="Include" />
+        <e p="PinPathTests.cs" t="Include" />
+        <e p="SubtractTests.cs" t="Include" />
+      </e>
     </e>
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
