@@ -28,6 +28,7 @@
       <e p="ShapeSubtractExt.cs" t="Include" />
       <e p="ShapeUnionExt.cs" t="Include" />
       <e p="SubtractSolution.cs" t="Include" />
+      <e p="UnionSolution.cs" t="Include" />
     </e>
     <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Util" t="Include">
       <e p="Corner.cs" t="Include" />

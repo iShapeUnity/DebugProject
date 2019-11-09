@@ -4,6 +4,7 @@
     <attachedFolders />
     <explicitIncludes>
       <Path>../../Clipper</Path>
+      <Path>Library/PackageCache/com.ishape.geometry@a0c78ab2bac974877ab270a9d866621eddcd04af</Path>
       <Path>Library/PackageCache/com.ishape.geometry@bd5c1f173fe70511015c223759c09d3936556cb5</Path>
       <Path>Library/PackageCache/com.unity.collab-proxy@1.2.16</Path>
       <Path>Library/PackageCache/com.unity.ext.nunit@1.0.0</Path>
@@ -18,6 +19,7 @@
       <Path>.idea</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
+      <Path>Temp</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>
