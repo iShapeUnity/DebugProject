@@ -25,6 +25,7 @@
       </e>
     </e>
     <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Shape" t="Include">
+      <e p="PlainShapeSubtractExt.cs" t="Include" />
       <e p="ShapeSubtractExt.cs" t="Include" />
       <e p="ShapeUnionExt.cs" t="Include" />
       <e p="SubtractSolution.cs" t="Include" />
