@@ -45,5 +45,11 @@
   },
   "testables": [
     "com.ishape.triangulation"
-  ]
+  ],
+  "lock": {
+    "com.ishape.geometry": {
+      "hash": "61368fb4935623b05e1da594038b38fa398bace1",
+      "revision": "HEAD"
+    }
+  }
 }
