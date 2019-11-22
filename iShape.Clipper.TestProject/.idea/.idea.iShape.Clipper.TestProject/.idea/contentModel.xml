@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Intersection" t="Include">
+    <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Collision" t="Include">
       <e p="AdjacencyMatrix.cs" t="Include" />
+      <e p="CrossDetector.cs" t="Include" />
       <e p="CrossResolver.cs" t="Include" />
       <e p="CrossType.cs" t="Include" />
-      <e p="Intersector.cs" t="Include" />
       <e p="Navigation" t="Include">
         <e p="Cursor.cs" t="Include" />
         <e p="PinNavigator.cs" t="Include" />
@@ -23,11 +23,13 @@
       </e>
     </e>
     <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Shape" t="Include">
-      <e p="PlainShapeSubtractExt.cs" t="Include" />
-      <e p="ShapeSubtractExt.cs" t="Include" />
       <e p="ShapeUnionExt.cs" t="Include" />
+      <e p="SubtractNavigator.cs" t="Include" />
       <e p="SubtractSolution.cs" t="Include" />
+      <e p="SubtractSolver.cs" t="Include" />
+      <e p="UnionNavigator.cs" t="Include" />
       <e p="UnionSolution.cs" t="Include" />
+      <e p="UnionSolver.cs" t="Include" />
     </e>
     <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Util" t="Include">
       <e p="Corner.cs" t="Include" />
