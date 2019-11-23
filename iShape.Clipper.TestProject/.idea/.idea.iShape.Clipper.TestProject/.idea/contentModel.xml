@@ -25,6 +25,8 @@
       </e>
     </e>
     <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Solver" t="Include">
+      <e p="CutSolution.cs" t="Include" />
+      <e p="CutSolver.cs" t="Include" />
       <e p="FilterNavigator.cs" t="Include" />
       <e p="IntersectSolver.cs" t="Include" />
       <e p="SubtractSolution.cs" t="Include" />
