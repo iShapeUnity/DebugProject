@@ -25,10 +25,10 @@
       </e>
     </e>
     <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Solver" t="Include">
-      <e p="SubtractNavigator.cs" t="Include" />
+      <e p="FilterNavigator.cs" t="Include" />
+      <e p="IntersectSolver.cs" t="Include" />
       <e p="SubtractSolution.cs" t="Include" />
       <e p="SubtractSolver.cs" t="Include" />
-      <e p="UnionNavigator.cs" t="Include" />
       <e p="UnionSolution.cs" t="Include" />
       <e p="UnionSolver.cs" t="Include" />
     </e>
@@ -42,6 +42,7 @@
         <e p="SubtractTestData.cs" t="Include" />
         <e p="UnionTestData.cs" t="Include" />
       </e>
+      <e p="IntersectTests.cs" t="Include" />
       <e p="PinPathTests.cs" t="Include" />
       <e p="SubtractTests.cs" t="Include" />
       <e p="UnionTests.cs" t="Include" />
@@ -54,9 +55,24 @@
       <e p="iShape.Clipper.Editor.Tests.csproj" t="IncludeRecursive" />
       <e p="iShape.Clipper.Runtime.csproj" t="IncludeRecursive" />
       <e p="iShape.Clipper.TestProject.sln" t="IncludeFlat" />
+      <e p="iShape.Geometry.Runtime.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$PROJECT_DIR$/../../Geometry/Runtime/iShape/Collection" t="Include">
+      <e p="DynamicArray.cs" t="Include" />
+      <e p="NativeArrayExtension.cs" t="Include" />
+    </e>
+    <e p="$PROJECT_DIR$/../../Geometry/Runtime/iShape/Geometry" t="Include">
+      <e p="IntGeom.cs" t="Include" />
+      <e p="IntShape.cs" t="Include" />
+      <e p="IntVector.cs" t="Include" />
+      <e p="PlainPathList.cs" t="Include" />
+      <e p="PlainShape.cs" t="Include" />
+      <e p="Shape.cs" t="Include" />
+      <e p="Vector2Extension.cs" t="Include" />
+      <e p="Vertex.cs" t="Include" />
     </e>
   </component>
 </project>

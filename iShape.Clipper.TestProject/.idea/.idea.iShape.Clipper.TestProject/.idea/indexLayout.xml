@@ -4,7 +4,6 @@
     <attachedFolders />
     <explicitIncludes>
       <Path>../../Clipper</Path>
-      <Path>Library/PackageCache/com.ishape.geometry@61368fb4935623b05e1da594038b38fa398bace1</Path>
       <Path>Library/PackageCache/com.ishape.geometry@bd5c1f173fe70511015c223759c09d3936556cb5</Path>
       <Path>Library/PackageCache/com.unity.collab-proxy@1.2.16</Path>
       <Path>Library/PackageCache/com.unity.ext.nunit@1.0.0</Path>
@@ -14,6 +13,7 @@
       <Path>Library/PackageCache/com.unity.textmeshpro@2.0.1</Path>
       <Path>Packages</Path>
       <Path>ProjectSettings</Path>
+      <Path>../../Geometry</Path>
     </explicitIncludes>
     <explicitExcludes>
       <Path>.idea</Path>
