@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_iShape.Clipper.TestProject.-1851840841.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Collision" t="Include">
       <e p="AdjacencyMatrix.cs" t="Include" />
       <e p="CrossDetector.cs" t="Include" />
@@ -22,12 +24,13 @@
         <e p="PinSequence.cs" t="Include" />
       </e>
     </e>
-    <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Shape" t="Include">
-      <e p="ShapeUnionExt.cs" t="Include" />
-      <e p="SubtractNavigator.cs" t="Include" />
+    <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Solver" t="Include">
+      <e p="CutSolution.cs" t="Include" />
+      <e p="CutSolver.cs" t="Include" />
+      <e p="FilterNavigator.cs" t="Include" />
+      <e p="IntersectSolver.cs" t="Include" />
       <e p="SubtractSolution.cs" t="Include" />
       <e p="SubtractSolver.cs" t="Include" />
-      <e p="UnionNavigator.cs" t="Include" />
       <e p="UnionSolution.cs" t="Include" />
       <e p="UnionSolver.cs" t="Include" />
     </e>
@@ -41,6 +44,7 @@
         <e p="SubtractTestData.cs" t="Include" />
         <e p="UnionTestData.cs" t="Include" />
       </e>
+      <e p="IntersectTests.cs" t="Include" />
       <e p="PinPathTests.cs" t="Include" />
       <e p="SubtractTests.cs" t="Include" />
       <e p="UnionTests.cs" t="Include" />
@@ -72,7 +76,5 @@
       <e p="Vector2Extension.cs" t="Include" />
       <e p="Vertex.cs" t="Include" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_iShape.Clipper.TestProject.-69652141.00" t="ExcludeRecursive" />
   </component>
 </project>

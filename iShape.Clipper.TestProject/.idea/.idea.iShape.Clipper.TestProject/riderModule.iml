@@ -3,8 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/../../../../Clipper" />
     <content url="file://$MODULE_DIR$/../.." />
-    <content url="file://$MODULE_DIR$/../../../../Geometry/Runtime/iShape/Collection" />
-    <content url="file://$MODULE_DIR$/../../../../Geometry/Runtime/iShape/Geometry" />
+    <content url="file://$MODULE_DIR$/../../../../Geometry" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
