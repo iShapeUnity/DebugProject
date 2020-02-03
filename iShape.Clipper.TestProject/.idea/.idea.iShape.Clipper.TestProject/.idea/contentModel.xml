@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_iShape.Clipper.TestProject.-1851840841.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_iShape.Clipper.TestProject.-1851840841.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Collision" t="Include">
       <e p="AdjacencyMatrix.cs" t="Include" />
       <e p="CrossDetector.cs" t="Include" />
@@ -13,7 +13,6 @@
         <e p="PinNavigator.cs" t="Include" />
         <e p="PinNode.cs" t="Include" />
       </e>
-      <e p="PinPathBuilder.cs" t="Include" />
       <e p="Primitive" t="Include">
         <e p="IndexMileStone.cs" t="Include" />
         <e p="PathMileStone.cs" t="Include" />
@@ -21,8 +20,10 @@
         <e p="PinHandler.cs" t="Include" />
         <e p="PinPath.cs" t="Include" />
         <e p="PinPoint.cs" t="Include" />
-        <e p="PinSequence.cs" t="Include" />
       </e>
+    </e>
+    <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Shape" t="Include">
+      <e p="UnionSolver.cs" t="Include" />
     </e>
     <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Solver" t="Include">
       <e p="CutSolution.cs" t="Include" />
@@ -36,6 +37,7 @@
     </e>
     <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Util" t="Include">
       <e p="Corner.cs" t="Include" />
+      <e p="CrossTest.cs" t="Include" />
       <e p="Rect.cs" t="Include" />
     </e>
     <e p="$PROJECT_DIR$/../../Clipper/Tests/Editor/Tests/Clipper" t="Include">
