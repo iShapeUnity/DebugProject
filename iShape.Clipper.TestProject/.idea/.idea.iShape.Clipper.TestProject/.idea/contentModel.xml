@@ -46,9 +46,11 @@
     <e p="$PROJECT_DIR$/../../Clipper/Tests/Editor/Tests/Clipper" t="Include">
       <e p="CornerTests.cs" t="Include" />
       <e p="Data" t="Include">
+        <e p="PinTestData.cs" t="Include" />
         <e p="SubtractTestData.cs" t="Include" />
         <e p="UnionTestData.cs" t="Include" />
       </e>
+      <e p="Extension" t="Include" />
       <e p="IntersectTests.cs" t="Include" />
       <e p="PinPathTests.cs" t="Include" />
       <e p="SubtractTests.cs" t="Include" />
