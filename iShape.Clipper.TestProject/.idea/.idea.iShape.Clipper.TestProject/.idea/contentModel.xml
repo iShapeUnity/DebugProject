@@ -33,6 +33,7 @@
       <e p="CutSolver.cs" t="Include" />
       <e p="FilterNavigator.cs" t="Include" />
       <e p="IntersectSolver.cs" t="Include" />
+      <e p="RootSolver.cs" t="Include" />
       <e p="SubtractSolution.cs" t="Include" />
       <e p="SubtractSolver.cs" t="Include" />
       <e p="UnionSolution.cs" t="Include" />
@@ -41,6 +42,7 @@
     <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Util" t="Include">
       <e p="Corner.cs" t="Include" />
       <e p="CrossTest.cs" t="Include" />
+      <e p="PolygonExt.cs" t="Include" />
       <e p="Rect.cs" t="Include" />
     </e>
     <e p="$PROJECT_DIR$/../../Clipper/Tests/Editor/Tests/Clipper" t="Include">
@@ -78,8 +80,8 @@
     <e p="$PROJECT_DIR$/../../Geometry/Runtime/iShape/Geometry" t="Include">
       <e p="Container" t="Include">
         <e p="DynamicPlainShape.cs" t="Include" />
+        <e p="PathLayout.cs" t="Include" />
         <e p="PlainShape.cs" t="Include" />
-        <e p="PlainShapeLayout.cs" t="Include" />
       </e>
       <e p="IntGeom.cs" t="Include" />
       <e p="IntShape.cs" t="Include" />
