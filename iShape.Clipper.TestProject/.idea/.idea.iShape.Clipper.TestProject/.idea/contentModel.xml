@@ -76,11 +76,15 @@
       <e p="NativeArrayExtension.cs" t="Include" />
     </e>
     <e p="$PROJECT_DIR$/../../Geometry/Runtime/iShape/Geometry" t="Include">
+      <e p="Container" t="Include">
+        <e p="DynamicPlainShape.cs" t="Include" />
+        <e p="PlainShape.cs" t="Include" />
+        <e p="PlainShapeLayout.cs" t="Include" />
+      </e>
       <e p="IntGeom.cs" t="Include" />
       <e p="IntShape.cs" t="Include" />
       <e p="IntVector.cs" t="Include" />
       <e p="PlainPathList.cs" t="Include" />
-      <e p="PlainShape.cs" t="Include" />
       <e p="Shape.cs" t="Include" />
       <e p="Vector2Extension.cs" t="Include" />
       <e p="Vertex.cs" t="Include" />
