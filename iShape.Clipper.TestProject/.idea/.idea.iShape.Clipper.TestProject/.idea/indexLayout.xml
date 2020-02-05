@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelUserStore">
-    <attachedFolders />
+    <attachedFolders>
+      <Path>../../Clipper</Path>
+      <Path>../../Geometry</Path>
+    </attachedFolders>
     <explicitIncludes>
       <Path>../../Clipper</Path>
       <Path>Library/PackageCache/com.ishape.geometry@bd5c1f173fe70511015c223759c09d3936556cb5</Path>
