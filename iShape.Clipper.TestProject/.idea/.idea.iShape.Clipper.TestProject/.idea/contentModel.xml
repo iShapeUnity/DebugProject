@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_iShape.Clipper.TestProject.-1851840841.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Collision" t="Include">
       <e p="AdjacencyMatrix.cs" t="Include" />
       <e p="CrossDetector.cs" t="Include" />
@@ -31,8 +29,9 @@
       <e p="UnionSolver.cs" t="Include" />
     </e>
     <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Solver" t="Include">
+      <e p="BiteSolution.cs" t="Include" />
+      <e p="BiteSolver.cs" t="Include" />
       <e p="CutSolution.cs" t="Include" />
-      <e p="CutSolver.cs" t="Include" />
       <e p="FilterNavigator.cs" t="Include" />
       <e p="IntersectSolver.cs" t="Include" />
       <e p="RootSolver.cs" t="Include" />
@@ -84,8 +83,10 @@
     <e p="$PROJECT_DIR$/../../Geometry/Runtime/iShape/Geometry" t="Include">
       <e p="Container" t="Include">
         <e p="DynamicPlainShape.cs" t="Include" />
+        <e p="DynamicPlainShapeList.cs" t="Include" />
         <e p="PathLayout.cs" t="Include" />
         <e p="PlainShape.cs" t="Include" />
+        <e p="PlainShapeList.cs" t="Include" />
       </e>
       <e p="IntGeom.cs" t="Include" />
       <e p="IntShape.cs" t="Include" />
@@ -95,5 +96,7 @@
       <e p="Vector2Extension.cs" t="Include" />
       <e p="Vertex.cs" t="Include" />
     </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_iShape.Clipper.TestProject.-69652141.00" t="ExcludeRecursive" />
   </component>
 </project>
