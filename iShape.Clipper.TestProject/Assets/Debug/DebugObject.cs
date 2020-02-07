@@ -1,6 +1,7 @@
 ﻿using Debug;
 using iShape.Clipper.Collision;
 using iShape.Clipper.Collision.Primitive;
+using iShape.Clipper.Solver;
 using iShape.Geometry;
 using Unity.Collections;
 using UnityEngine;
@@ -16,7 +17,12 @@ public class DebugObject : MonoBehaviour {
     }
     
     public void DoMemoryLeakTest() {
+
+        NativeLeakDetection.Mode = NativeLeakDetectionMode.EnabledWithStackTrace;
         this.PinTests();
+        this.IntersectTests();
+        this.SubtractTests();
+        this.UnionTests();
     }
 
     private void PinTests() {
@@ -32,6 +38,57 @@ public class DebugObject : MonoBehaviour {
             result.Dispose();
             iMaster.Dispose();
             iSlave.Dispose();            
+        }
+    }
+
+    private void IntersectTests() {
+        int n = SubtractTestData.data.Length;
+        for (int i = 0; i < n; ++i) {
+
+            var data = SubtractTestData.data[i];
+
+            var master = new NativeArray<IntVector>(IntGeom.DefGeom.Int(data[0]), Allocator.Temp);
+            var slave = new NativeArray<IntVector>(IntGeom.DefGeom.Int(data[1]), Allocator.Temp);
+
+            var solution = master.Intersect(slave, IntGeom.DefGeom, Allocator.TempJob);
+
+            solution.Dispose();
+            master.Dispose();
+            slave.Dispose(); 
+        }
+    }
+    
+    private void SubtractTests() {
+        int n = SubtractTestData.data.Length;
+        for (int i = 0; i < n; ++i) {
+
+            var data = SubtractTestData.data[i];
+
+            var master = new NativeArray<IntVector>(IntGeom.DefGeom.Int(data[0]), Allocator.Temp);
+            var slave = new NativeArray<IntVector>(IntGeom.DefGeom.Int(data[1]), Allocator.Temp);
+
+            var solution = master.Subtract(slave, IntGeom.DefGeom, Allocator.TempJob);
+
+            solution.Dispose();
+            master.Dispose();
+            slave.Dispose(); 
+        }
+    }
+    
+    private void UnionTests() {
+        int n = UnionTestData.data.Length;
+        for (int i = 0; i < n; ++i) {
+
+            var data = UnionTestData.data[i];
+
+            var master = new NativeArray<IntVector>(IntGeom.DefGeom.Int(data[0]), Allocator.Temp);
+            var slave = new NativeArray<IntVector>(IntGeom.DefGeom.Int(data[1]), Allocator.Temp);
+
+            var solution = master.Union(slave, IntGeom.DefGeom, Allocator.TempJob);
+
+            solution.Dispose();
+            master.Dispose();
+            slave.Dispose(); 
         }
     }
 
