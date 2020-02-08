@@ -33,6 +33,7 @@
     <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Solver" t="Include">
       <e p="BiteSolution.cs" t="Include" />
       <e p="BiteSolver.cs" t="Include" />
+      <e p="ConvertExtension.cs" t="Include" />
       <e p="CutSolution.cs" t="Include" />
       <e p="FilterNavigator.cs" t="Include" />
       <e p="IntersectSolver.cs" t="Include" />
@@ -49,10 +50,10 @@
       <e p="Rect.cs" t="Include" />
     </e>
     <e p="$PROJECT_DIR$/../../Clipper/Tests/Editor/Tests/Clipper" t="Include">
+      <e p="BiteTests.cs" t="Include" />
       <e p="CornerTests.cs" t="Include" />
-      <e p="CutTests.cs" t="Include" />
       <e p="Data" t="Include">
-        <e p="CutTestData.cs" t="Include" />
+        <e p="BiteTestData.cs" t="Include" />
         <e p="PinTestData.cs" t="Include" />
         <e p="SubtractTestData.cs" t="Include" />
         <e p="UnionTestData.cs" t="Include" />
@@ -79,7 +80,6 @@
         <e p="Editor" t="Include">
           <e p="DebugObjectEditor.cs" t="Include" />
         </e>
-        <e p="HelloWorld.cs" t="Include" />
       </e>
       <e p="iShape.Clipper.Editor.Tests.csproj" t="IncludeRecursive" />
       <e p="iShape.Clipper.Runtime.csproj" t="IncludeRecursive" />
@@ -100,6 +100,7 @@
         <e p="PathLayout.cs" t="Include" />
         <e p="PlainShape.cs" t="Include" />
         <e p="PlainShapeList.cs" t="Include" />
+        <e p="Segment.cs" t="Include" />
       </e>
       <e p="IntGeom.cs" t="Include" />
       <e p="IntShape.cs" t="Include" />
