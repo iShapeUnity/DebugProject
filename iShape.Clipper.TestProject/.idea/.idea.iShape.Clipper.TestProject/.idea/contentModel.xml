@@ -27,9 +27,6 @@
         <e p="PinPointSortExt.cs" t="Include" />
       </e>
     </e>
-    <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Shape" t="Include">
-      <e p="UnionSolver.cs" t="Include" />
-    </e>
     <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Solver" t="Include">
       <e p="BiteSolution.cs" t="Include" />
       <e p="BiteSolver.cs" t="Include" />
