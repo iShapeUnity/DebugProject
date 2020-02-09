@@ -106,7 +106,6 @@
       <e p="IntGeom.cs" t="Include" />
       <e p="IntShape.cs" t="Include" />
       <e p="IntVector.cs" t="Include" />
-      <e p="PlainPathList.cs" t="Include" />
       <e p="Shape.cs" t="Include" />
       <e p="Vector2Extension.cs" t="Include" />
       <e p="Vertex.cs" t="Include" />
