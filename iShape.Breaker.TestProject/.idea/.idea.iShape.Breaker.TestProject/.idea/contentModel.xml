@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$/../../Breaker/Runtime/iShape/Breaker" t="Include">
+      <e p="Solver.cs" t="Include" />
+    </e>
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="iShape.Breaker.Runtime.csproj" t="IncludeRecursive" />
+      <e p="iShape.Breaker.TestProject.sln" t="IncludeFlat" />
+      <e p="iShape.Geometry.Runtime.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$PROJECT_DIR$/../../Geometry/Runtime/iShape/Collection" t="Include">
+      <e p="DynamicArray.cs" t="Include" />
+      <e p="NativeArrayExtension.cs" t="Include" />
+    </e>
+    <e p="$PROJECT_DIR$/../../Geometry/Runtime/iShape/Geometry" t="Include">
+      <e p="Container" t="Include">
+        <e p="DynamicPlainShape.cs" t="Include" />
+        <e p="DynamicPlainShapeList.cs" t="Include" />
+        <e p="PathLayout.cs" t="Include" />
+        <e p="PlainShape.cs" t="Include" />
+        <e p="PlainShapeList.cs" t="Include" />
+        <e p="Segment.cs" t="Include" />
+      </e>
+      <e p="IntGeom.cs" t="Include" />
+      <e p="IntShape.cs" t="Include" />
+      <e p="IntVector.cs" t="Include" />
+      <e p="Shape.cs" t="Include" />
+      <e p="Vector2Extension.cs" t="Include" />
+      <e p="Vertex.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_iShape.Breaker.TestProject.-1300359693.00" t="ExcludeRecursive" />
+  </component>
+</project>
