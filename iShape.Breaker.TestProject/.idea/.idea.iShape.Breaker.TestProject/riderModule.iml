@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$/../../../../Breaker" />
     <content url="file://$MODULE_DIR$/../.." />
     <content url="file://$MODULE_DIR$/../../../../Geometry" />
+    <content url="file://$MODULE_DIR$/../../../../Triangulation" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

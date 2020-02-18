@@ -4,6 +4,7 @@
     <attachedFolders>
       <Path>../../Breaker</Path>
       <Path>../../Geometry</Path>
+      <Path>../../Triangulation</Path>
     </attachedFolders>
     <explicitIncludes>
       <Path>../../Breaker</Path>
@@ -18,6 +19,7 @@
       <Path>Packages</Path>
       <Path>ProjectSettings</Path>
       <Path>../../Geometry</Path>
+      <Path>../../Triangulation</Path>
     </explicitIncludes>
     <explicitExcludes>
       <Path>.idea</Path>

@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_iShape.Breaker.TestProject.83986778.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$/../../Breaker/Runtime/iShape/Breaker" t="Include">
       <e p="Solver.cs" t="Include" />
+      <e p="TrianglesBuilder.cs" t="Include" />
+    </e>
+    <e p="$PROJECT_DIR$/../../Breaker/Tests/Editor/Tests/Breaker" t="Include">
+      <e p="BreakerTestData.cs" t="Include" />
+      <e p="BreakerTests.cs" t="Include" />
     </e>
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="iShape.Breaker.Editor.Tests.csproj" t="IncludeRecursive" />
       <e p="iShape.Breaker.Runtime.csproj" t="IncludeRecursive" />
       <e p="iShape.Breaker.TestProject.sln" t="IncludeFlat" />
       <e p="iShape.Geometry.Runtime.csproj" t="IncludeRecursive" />
+      <e p="iShape.Triangulation.Runtime.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp/bin" t="ExcludeRecursive" />
@@ -36,7 +45,26 @@
       <e p="Vector2Extension.cs" t="Include" />
       <e p="Vertex.cs" t="Include" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_iShape.Breaker.TestProject.-1300359693.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$/../../Triangulation/Runtime/iShape/Triangulation/Shape" t="Include">
+      <e p="Delaunay" t="Include">
+        <e p="Delaunator.cs" t="Include" />
+        <e p="DelaunayTriangulationExt.cs" t="Include" />
+        <e p="Side.cs" t="Include" />
+        <e p="SliceBuffer.cs" t="Include" />
+        <e p="Triangle.cs" t="Include" />
+        <e p="TriangleStack.cs" t="Include" />
+      </e>
+      <e p="LayoutExt.cs" t="Include" />
+      <e p="Link.cs" t="Include" />
+      <e p="LinkNature.cs" t="Include" />
+      <e p="MonotoneLayout.cs" t="Include" />
+      <e p="NavigatorExt.cs" t="Include" />
+      <e p="ShapeNavigator.cs" t="Include" />
+      <e p="Slice.cs" t="Include" />
+      <e p="TriangulationExt.cs" t="Include" />
+    </e>
+    <e p="$PROJECT_DIR$/../../Triangulation/Runtime/iShape/Triangulation/Util" t="Include">
+      <e p="IntTriangle.cs" t="Include" />
+    </e>
   </component>
 </project>

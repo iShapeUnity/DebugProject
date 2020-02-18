@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.ishape.breaker": "file:./../../../Breaker",
+    "com.ishape.triangulation": "file:./../../../Triangulation",
     "com.ishape.geometry": "file:./../../../Geometry",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.tilemap": "1.0.0",
