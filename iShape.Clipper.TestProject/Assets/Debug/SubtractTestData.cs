@@ -871,6 +871,24 @@ namespace Debug {
                     new Vector2(-15.0f, -5.0f),
                     new Vector2(-5.0f, -5.0f)
                 }
+            },
+            // 45
+            new[] {
+                new[] {
+                    new Vector2(-1.0f, -0.0001f),
+                    new Vector2(0.0f, 0.9999f),
+                    new Vector2(-1.0f, -0.0001f),
+                    new Vector2(-3.0f, -0.0001f),
+                    new Vector2(-3.0f, 2.9999f),
+                    new Vector2(3.0f, 2.9999f),
+                    new Vector2(3.0f, -0.0001f)
+                },
+                new[] {
+                    new Vector2(1.0f, 0.0f),
+                    new Vector2(0.0f, 1.0f),
+                    new Vector2(-1.0f, 0.0f),
+                    new Vector2(0.0f, -1.0f)
+                }
             }
         };
     }
