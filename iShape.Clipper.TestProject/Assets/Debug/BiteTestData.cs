@@ -2,7 +2,6 @@ using iShape.Geometry;
 using iShape.Geometry.Container;
 using Unity.Collections;
 using UnityEngine;
-
 namespace Debug {
 
     public class BiteTestData {
