@@ -36,7 +36,7 @@ public class DebugObject : MonoBehaviour {
             var iMaster = new NativeArray<IntVector>(IntGeom.DefGeom.Int(data[0]), allocator);
             var iSlave = new NativeArray<IntVector>(IntGeom.DefGeom.Int(data[1]), allocator);
 
-            var result = CrossDetector.FindPins(iMaster, iSlave, IntGeom.DefGeom, PinPoint.PinType.nil, allocator);
+            var result = CrossDetector.FindPins(iMaster, iSlave, PinPoint.PinType.nil, allocator);
 
             result.Dispose();
             iMaster.Dispose();
@@ -53,7 +53,7 @@ public class DebugObject : MonoBehaviour {
             var master = new NativeArray<IntVector>(IntGeom.DefGeom.Int(data[0]), allocator);
             var slave = new NativeArray<IntVector>(IntGeom.DefGeom.Int(data[1]), allocator);
 
-            var solution = master.Intersect(slave, IntGeom.DefGeom, allocator);
+            var solution = master.Intersect(slave, allocator);
 
             solution.Dispose();
             master.Dispose();
@@ -70,7 +70,7 @@ public class DebugObject : MonoBehaviour {
             var master = new NativeArray<IntVector>(IntGeom.DefGeom.Int(data[0]), allocator);
             var slave = new NativeArray<IntVector>(IntGeom.DefGeom.Int(data[1]), allocator);
 
-            var solution = master.Subtract(slave, IntGeom.DefGeom, allocator);
+            var solution = master.Subtract(slave, allocator);
 
             solution.Dispose();
             master.Dispose();
@@ -87,7 +87,7 @@ public class DebugObject : MonoBehaviour {
             var master = new NativeArray<IntVector>(IntGeom.DefGeom.Int(data[0]), allocator);
             var slave = new NativeArray<IntVector>(IntGeom.DefGeom.Int(data[1]), allocator);
 
-            var solution = master.Union(slave, IntGeom.DefGeom, allocator);
+            var solution = master.Union(slave, allocator);
 
             solution.Dispose();
             master.Dispose();
@@ -99,7 +99,7 @@ public class DebugObject : MonoBehaviour {
         int n = BiteTestData.data.Length;
         for (int i = 0; i < n; ++i) {
             var data = BiteTestData.data[0].Allocate(allocator);
-            var solution = data.shape.Bite(data.path, IntGeom.DefGeom, allocator);
+            var solution = data.shape.Bite(data.path, allocator);
             data.Dispose();
             solution.Dispose();
         }
