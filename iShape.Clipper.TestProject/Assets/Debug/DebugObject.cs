@@ -99,7 +99,7 @@ public class DebugObject : MonoBehaviour {
         int n = BiteTestData.data.Length;
         for (int i = 0; i < n; ++i) {
             var data = BiteTestData.data[0].Allocate(allocator);
-            var solution = data.shape.Bite(data.path, allocator);
+            var solution = data.shape.ComplexSubtract(data.path, allocator);
             data.Dispose();
             solution.Dispose();
         }

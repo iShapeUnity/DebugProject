@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_iShape.Clipper.TestProject.1314694330.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_iShape.Clipper.TestProject.1314694330.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Collision" t="Include">
       <e p="CrossDetector.cs" t="Include" />
       <e p="CrossResolver.cs" t="Include" />
@@ -12,6 +12,7 @@
         <e p="PinNavigator.cs" t="Include" />
         <e p="PinNode.cs" t="Include" />
       </e>
+      <e p="PathSimplifyExtension.cs" t="Include" />
       <e p="Primitive" t="Include">
         <e p="IndexMileStone.cs" t="Include" />
         <e p="PathMileStone.cs" t="Include" />
@@ -27,10 +28,11 @@
       </e>
     </e>
     <e p="$PROJECT_DIR$/../../Clipper/Runtime/iShape/Clipper/Solver" t="Include">
-      <e p="BiteSolution.cs" t="Include" />
-      <e p="BiteSolver.cs" t="Include" />
-      <e p="ComplexSolution.cs" t="Include" />
+      <e p="ComplexSubtractSolution.cs" t="Include" />
+      <e p="ComplexSubtractSolver.cs" t="Include" />
+      <e p="ComplexUnionSolver.cs" t="Include" />
       <e p="ConvertExtension.cs" t="Include" />
+      <e p="DualSolution.cs" t="Include" />
       <e p="FilterNavigator.cs" t="Include" />
       <e p="IntersectSolver.cs" t="Include" />
       <e p="RootSolver.cs" t="Include" />
@@ -46,12 +48,14 @@
       <e p="Rect.cs" t="Include" />
     </e>
     <e p="$PROJECT_DIR$/../../Clipper/Tests/Editor/Tests/Clipper" t="Include">
-      <e p="BiteTests.cs" t="Include" />
+      <e p="ComplexSubtractTests.cs" t="Include" />
+      <e p="ComplexUnionTests.cs" t="Include" />
       <e p="CornerTests.cs" t="Include" />
       <e p="Data" t="Include">
-        <e p="BiteTestData.cs" t="Include" />
+        <e p="ComplexTestData.cs" t="Include" />
         <e p="IntVectorArrayExtension.cs" t="Include" />
         <e p="PinTestData.cs" t="Include" />
+        <e p="SimplifyTestData.cs" t="Include" />
         <e p="SubtractTestData.cs" t="Include" />
         <e p="UnionTestData.cs" t="Include" />
       </e>
@@ -60,6 +64,7 @@
       </e>
       <e p="IntersectTests.cs" t="Include" />
       <e p="PinPathTests.cs" t="Include" />
+      <e p="SimplifyTests.cs" t="Include" />
       <e p="SubtractTests.cs" t="Include" />
       <e p="UnionTests.cs" t="Include" />
     </e>
