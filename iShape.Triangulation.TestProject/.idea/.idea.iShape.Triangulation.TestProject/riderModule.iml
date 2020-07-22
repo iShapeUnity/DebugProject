@@ -2,9 +2,7 @@
 <module type="RIDER_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/../.." />
-    <content url="file://$MODULE_DIR$/../../../../Triangulation/Runtime/iShape/Triangulation/Shape" />
-    <content url="file://$MODULE_DIR$/../../../../Triangulation/Runtime/iShape/Triangulation/Util" />
-    <content url="file://$MODULE_DIR$/../../../../Triangulation/Tests/Editor/Triangulation" />
+    <content url="file://$MODULE_DIR$/../../../../Triangulation" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
