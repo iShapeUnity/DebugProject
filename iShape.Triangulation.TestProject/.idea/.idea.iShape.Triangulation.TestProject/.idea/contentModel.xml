@@ -13,12 +13,14 @@
     </e>
     <e p="$PROJECT_DIR$/../../Triangulation/Runtime/iShape/Triangulation/Shape" t="Include">
       <e p="Delaunay" t="Include">
-        <e p="Delaunator.cs" t="Include" />
-        <e p="DelaunayTriangulationExt.cs" t="Include" />
+        <e p="Breaker.cs" t="Include" />
+        <e p="Delaunay.cs" t="Include" />
         <e p="Side.cs" t="Include" />
         <e p="SliceBuffer.cs" t="Include" />
+        <e p="Tessellation.cs" t="Include" />
         <e p="Triangle.cs" t="Include" />
         <e p="TriangleStack.cs" t="Include" />
+        <e p="Triangulation.cs" t="Include" />
       </e>
       <e p="LayoutExt.cs" t="Include" />
       <e p="Link.cs" t="Include" />
