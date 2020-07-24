@@ -4,12 +4,40 @@
     <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_iShape.Triangulation.TestProject.608766906.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="iShape.Geometry.Runtime.csproj" t="IncludeRecursive" />
       <e p="iShape.Triangulation.Editor.Tests.csproj" t="IncludeRecursive" />
       <e p="iShape.Triangulation.Runtime.csproj" t="IncludeRecursive" />
       <e p="iShape.Triangulation.TestProject.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$PROJECT_DIR$/../../Geometry/Runtime/iShape/Collection" t="Include">
+      <e p="DynamicArray.cs" t="Include" />
+      <e p="NativeArrayExtension.cs" t="Include" />
+    </e>
+    <e p="$PROJECT_DIR$/../../Geometry/Runtime/iShape/Geometry" t="Include">
+      <e p="Circle.cs" t="Include" />
+      <e p="Container" t="Include">
+        <e p="DynamicPathList.cs" t="Include" />
+        <e p="DynamicPathListSegments.cs" t="Include" />
+        <e p="DynamicPlainShape.cs" t="Include" />
+        <e p="DynamicPlainShapeList.cs" t="Include" />
+        <e p="PathLayout.cs" t="Include" />
+        <e p="PathList.cs" t="Include" />
+        <e p="PlainShape.cs" t="Include" />
+        <e p="PlainShapeList.cs" t="Include" />
+        <e p="Segment.cs" t="Include" />
+      </e>
+      <e p="DBVector.cs" t="Include" />
+      <e p="IntGeom.cs" t="Include" />
+      <e p="IntShape.cs" t="Include" />
+      <e p="IntVector.cs" t="Include" />
+      <e p="Shape.cs" t="Include" />
+      <e p="Triangle.cs" t="Include" />
+      <e p="Vector2ArrayExtension.cs" t="Include" />
+      <e p="Vector2Extension.cs" t="Include" />
+      <e p="Vertex.cs" t="Include" />
     </e>
     <e p="$PROJECT_DIR$/../../Triangulation/Runtime/iShape/Triangulation/Shape" t="Include">
       <e p="Delaunay" t="Include">
