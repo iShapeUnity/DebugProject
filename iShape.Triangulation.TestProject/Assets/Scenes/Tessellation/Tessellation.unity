@@ -323,7 +323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63492a323ff8d4cd3a442837d00087a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testIndex: 0
+  testIndex: 5
   polygon: {fileID: 65263784}
 --- !u!20 &519420031
 Camera:
