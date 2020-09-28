@@ -78,7 +78,7 @@
     </e>
     <e p="$PROJECT_DIR$/../../Triangulation/Runtime/iShape/Triangulation/Shape" t="Include">
       <e p="Delaunay" t="Include">
-        <e p="Breaker.cs" t="Include" />
+        <e p="CentroidNet.cs" t="Include" />
         <e p="Delaunay.cs" t="Include" />
         <e p="Side.cs" t="Include" />
         <e p="SliceBuffer.cs" t="Include" />
@@ -96,7 +96,6 @@
       <e p="ShapeNavigator.cs" t="Include" />
       <e p="Slice.cs" t="Include" />
       <e p="TriangulationExt.cs" t="Include" />
-      <e p="TriangulationStrategy.cs" t="Include" />
     </e>
     <e p="$PROJECT_DIR$/../../Triangulation/Runtime/iShape/Triangulation/Util" t="Include">
       <e p="IntTriangle.cs" t="Include" />
