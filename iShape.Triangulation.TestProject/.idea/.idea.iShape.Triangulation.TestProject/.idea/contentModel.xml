@@ -80,6 +80,7 @@
       <e p="Delaunay" t="Include">
         <e p="CentroidNet.cs" t="Include" />
         <e p="Delaunay.cs" t="Include" />
+        <e p="Polygons.cs" t="Include" />
         <e p="Side.cs" t="Include" />
         <e p="SliceBuffer.cs" t="Include" />
         <e p="Tessellation.cs" t="Include" />

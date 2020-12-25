@@ -1,0 +1,267 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/nailsharipov/Projects/Unity/iShape/iShape/DebugProject/iShape.Triangulation.TestProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50095
+Successfully changed project path to: /Users/nailsharipov/Projects/Unity/iShape/iShape/DebugProject/iShape.Triangulation.TestProject
+/Users/nailsharipov/Projects/Unity/iShape/iShape/DebugProject/iShape.Triangulation.TestProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 21.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/nailsharipov/Projects/Unity/iShape/iShape/DebugProject/iShape.Triangulation.TestProject/Assets
+GfxDevice: creating device client; threaded=0
+2020-12-25 17:03:00.863 Unity[8843:2400935] iMac preferred device: AMD Radeon Pro 570X (high power)
+2020-12-25 17:03:00.863 Unity[8843:2400935] Metal devices available: 1
+2020-12-25 17:03:00.863 Unity[8843:2400935] 0: AMD Radeon Pro 570X (high power)
+2020-12-25 17:03:00.864 Unity[8843:2400935] Using device AMD Radeon Pro 570X (high power)
+Initializing Metal device caps: AMD Radeon Pro 570X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56843
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000471 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 22.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.309 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000325 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.923 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.2 MB.
+System memory in use after: 110.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1576.
+Total: 2.381527 ms (FindLiveObjects: 0.216607 ms CreateObjectMapping: 0.057684 ms MarkObjects: 2.011122 ms  DeleteObjects: 0.094722 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Tessellation/TessellationTest.cs
+  artifactKey: Guid(63492a323ff8d4cd3a442837d00087a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tessellation/TessellationTest.cs using Guid(63492a323ff8d4cd3a442837d00087a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7fdfa7daf07a86eea3cfd10056d152') in 0.495766 seconds
+  Import took 0.498040 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000352 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.870 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.1 MB.
+System memory in use after: 114.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1579.
+Total: 2.151703 ms (FindLiveObjects: 0.216028 ms CreateObjectMapping: 0.063299 ms MarkObjects: 1.853235 ms  DeleteObjects: 0.017874 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.576703 seconds.
+  path: Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/NewBehaviourScript.cs
+  artifactKey: Guid(a1664064a5bb345c9810e56c01794a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/NewBehaviourScript.cs using Guid(a1664064a5bb345c9810e56c01794a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce48a32623d3691e4323296d398d314a') in 0.011001 seconds
+  Import took 0.013701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.970930 seconds.
+  path: Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Delaunay.cs
+  artifactKey: Guid(4f492862e32124869a56d29d908e1685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Delaunay.cs using Guid(4f492862e32124869a56d29d908e1685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f76a03a61b60691e8c4525ad0c643af') in 0.002783 seconds
+  Import took 0.004432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034693 seconds.
+  path: Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Delaunay.cs
+  artifactKey: Guid(4f492862e32124869a56d29d908e1685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Delaunay.cs using Guid(4f492862e32124869a56d29d908e1685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f76a03a61b60691e8c4525ad0c643af') in 0.003950 seconds
+  Import took 0.005978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.359218 seconds.
+  path: Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Polygon.cs
+  artifactKey: Guid(a1664064a5bb345c9810e56c01794a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Polygon.cs using Guid(a1664064a5bb345c9810e56c01794a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43736ec61177358552ccba61d3597408') in 0.003230 seconds
+  Import took 0.005023 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000322 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.952 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.5 MB.
+System memory in use after: 114.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1581.
+Total: 2.102996 ms (FindLiveObjects: 0.132529 ms CreateObjectMapping: 0.033616 ms MarkObjects: 1.919018 ms  DeleteObjects: 0.016468 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.616975 seconds.
+  path: Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/CentroidNet.cs
+  artifactKey: Guid(09bbbec3178e4caeaec2c443df6092ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/CentroidNet.cs using Guid(09bbbec3178e4caeaec2c443df6092ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3be5e0daf9a3fed4f14ac2bea05dd8') in 0.006925 seconds
+  Import took 0.008887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.178457 seconds.
+  path: Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Polygons.cs
+  artifactKey: Guid(a1664064a5bb345c9810e56c01794a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Polygons.cs using Guid(a1664064a5bb345c9810e56c01794a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035c2ece3325964644e971d8d778cedd') in 0.003518 seconds
+  Import took 0.005514 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000384 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.867 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.9 MB.
+System memory in use after: 115.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1583.
+Total: 2.363267 ms (FindLiveObjects: 0.236980 ms CreateObjectMapping: 0.064139 ms MarkObjects: 1.906684 ms  DeleteObjects: 0.153784 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1382.228135 seconds.
+  path: Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Polygons.cs
+  artifactKey: Guid(a1664064a5bb345c9810e56c01794a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Polygons.cs using Guid(a1664064a5bb345c9810e56c01794a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f89d6e9b887f7f3c95fa52c8725fe54') in 0.007005 seconds
+  Import took 0.008880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 314.867614 seconds.
+  path: Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Polygons.cs
+  artifactKey: Guid(a1664064a5bb345c9810e56c01794a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Polygons.cs using Guid(a1664064a5bb345c9810e56c01794a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba5c5ff4f1d3ab97f6b90264f6e31c0') in 0.005031 seconds
+  Import took 0.006897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1235.393450 seconds.
+  path: Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Polygons.cs
+  artifactKey: Guid(a1664064a5bb345c9810e56c01794a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Polygons.cs using Guid(a1664064a5bb345c9810e56c01794a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd4d7e97721e70f4cea18960e1e3c9b') in 0.004566 seconds
+  Import took 0.006438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.791249 seconds.
+  path: Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Polygons.cs
+  artifactKey: Guid(a1664064a5bb345c9810e56c01794a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Polygons.cs using Guid(a1664064a5bb345c9810e56c01794a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c297306d0152ce82b0c223db0586a24') in 0.004966 seconds
+  Import took 0.006982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.793391 seconds.
+  path: Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Polygons.cs
+  artifactKey: Guid(a1664064a5bb345c9810e56c01794a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Polygons.cs using Guid(a1664064a5bb345c9810e56c01794a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f9a645f9e1dd0f1cbb74598b1f19e7') in 0.005488 seconds
+  Import took 0.007274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.689970 seconds.
+  path: Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Polygons.cs
+  artifactKey: Guid(a1664064a5bb345c9810e56c01794a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.ishape.triangulation/Runtime/iShape/Triangulation/Shape/Delaunay/Polygons.cs using Guid(a1664064a5bb345c9810e56c01794a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96702e63aa2fe8f30053f5580b44b14d') in 0.004116 seconds
+  Import took 0.005984 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000380 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.852 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.4 MB.
+System memory in use after: 115.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1585.
+Total: 2.139627 ms (FindLiveObjects: 0.202019 ms CreateObjectMapping: 0.060805 ms MarkObjects: 1.860089 ms  DeleteObjects: 0.015193 ms)
+
