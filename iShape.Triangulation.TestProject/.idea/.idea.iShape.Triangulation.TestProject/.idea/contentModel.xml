@@ -8,6 +8,10 @@
       <e p="Assets" t="Include">
         <e p="Scenes" t="Include">
           <e p="Data.cs" t="Include" />
+          <e p="Polygons" t="Include">
+            <e p="ColorPolygon.shader" t="Include" />
+            <e p="PolygonsTest.cs" t="Include" />
+          </e>
           <e p="Tessellation" t="Include">
             <e p="TessellationTest.cs" t="Include" />
           </e>
