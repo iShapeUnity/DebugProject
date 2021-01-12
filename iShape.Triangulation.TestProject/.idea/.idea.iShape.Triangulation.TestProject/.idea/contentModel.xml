@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_iShape.Triangulation.TestProject.608766906.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.3/resharper-host/local/Transient/Rider/v203/SolutionCaches/_iShape.Triangulation.TestProject.608766906.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scenes" t="Include">
+          <e p="Centroid" t="Include">
+            <e p="CentroidTest.cs" t="Include" />
+          </e>
           <e p="Data.cs" t="Include" />
           <e p="Polygons" t="Include">
             <e p="ColorPolygon.shader" t="Include" />
@@ -71,20 +74,33 @@
         <e p="Segment.cs" t="Include" />
       </e>
       <e p="DBVector.cs" t="Include" />
+      <e p="Extension" t="Include">
+        <e p="IntVector_ArrayExt.cs" t="Include" />
+        <e p="Vector2_Ext.cs" t="Include" />
+      </e>
       <e p="IntGeom.cs" t="Include" />
       <e p="IntShape.cs" t="Include" />
       <e p="IntVector.cs" t="Include" />
+      <e p="Polygon" t="Include">
+        <e p="DynamicList.cs" t="Include" />
+        <e p="Layout.cs" t="Include" />
+        <e p="List.cs" t="Include" />
+        <e p="Polygon.cs" t="Include" />
+        <e p="PolygonExt.cs" t="Include" />
+      </e>
       <e p="Shape.cs" t="Include" />
       <e p="Triangle.cs" t="Include" />
-      <e p="Vector2ArrayExtension.cs" t="Include" />
-      <e p="Vector2Extension.cs" t="Include" />
       <e p="Vertex.cs" t="Include" />
+    </e>
+    <e p="$PROJECT_DIR$/../../Triangulation/Runtime/iShape/Triangulation/Extension" t="Include">
+      <e p="ConvexPolygonTriangulationExt.cs" t="Include" />
     </e>
     <e p="$PROJECT_DIR$/../../Triangulation/Runtime/iShape/Triangulation/Shape" t="Include">
       <e p="Delaunay" t="Include">
         <e p="CentroidNet.cs" t="Include" />
+        <e p="ConvexPolygon.cs" t="Include" />
         <e p="Delaunay.cs" t="Include" />
-        <e p="Polygons.cs" t="Include" />
+        <e p="IndexBuffer.cs" t="Include" />
         <e p="Side.cs" t="Include" />
         <e p="SliceBuffer.cs" t="Include" />
         <e p="Tessellation.cs" t="Include" />
@@ -95,7 +111,6 @@
       <e p="LayoutExt.cs" t="Include" />
       <e p="Link.cs" t="Include" />
       <e p="LinkNature.cs" t="Include" />
-      <e p="Modification.cs" t="Include" />
       <e p="MonotoneLayout.cs" t="Include" />
       <e p="NavigatorExt.cs" t="Include" />
       <e p="ShapeNavigator.cs" t="Include" />

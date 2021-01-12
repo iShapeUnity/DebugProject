@@ -1,11 +1,12 @@
 ﻿using System.Collections.Generic;
 using iShape.Collections;
 using iShape.Geometry;
+using iShape.Geometry.Container;
 using iShape.Triangulation.Shape.Delaunay;
 using Unity.Collections;
 using UnityEngine;
 
-public class PolygonsTest : MonoBehaviour {
+public class CentroidTest : MonoBehaviour {
 
     public int testIndex = 5;
     public GameObject polygon;
@@ -42,9 +43,9 @@ public class PolygonsTest : MonoBehaviour {
     private void SetMesh() {
         var iGeom = IntGeom.DefGeom;
         var shape = Data.Shape(testIndex, Allocator.Temp);
-        var delaunay = shape.Tessellate(Allocator.Temp, iGeom, 8);
-        var list = delaunay.ConvexPolygons(iGeom, Allocator.Temp);
-        shape.Dispose();
+        // shape.Modify(iGeom.Int(8), Allocator.Temp);
+        var delaunay = shape.Delaunay(Allocator.Temp);
+        var polygons = delaunay.MakeCentroidNet(Allocator.Temp);
         delaunay.Dispose();
 
         Mesh mesh = new Mesh();
@@ -52,17 +53,33 @@ public class PolygonsTest : MonoBehaviour {
         var colors = new List<Color>();
         var triangles = new List<int>();
 
-        for (int i = 0; i < list.Count; ++i) {
-            var subPolygon = list.Get(i, Allocator.Temp);
-            var subVertices = subPolygon.Vertices(Allocator.Temp).Convert();
-            var subColors = ColorsArray(i % aColors.Length, subVertices.Length);
-            var subIndices = subPolygon.ConvexIndices(Allocator.Temp, vertices.Count).Convert();
+        for (int i = 0; i < polygons.Count; ++i) {
+            var points = polygons.Get(i, Allocator.Temp);
+            var subShape = new PlainShape(points, true, Allocator.Temp);
+            var subDelaunay = subShape.Delaunay(Allocator.Temp);
+            var subIndices = subDelaunay.Indices(Allocator.Temp).Convert();
+
+            var subVertices = new Vector3[points.Length];
+            var subColors = new Color[points.Length];
+
+            var color = aColors[i % aColors.Length];
+            
+            for (int j = 0; j < points.Length; ++j) {
+                subVertices[j] = iGeom.Float(points[j]);
+                subColors[j] = color;
+            }
+
+            for (int j = 0; j < subIndices.Length; ++j) {
+                subIndices[j] += vertices.Count;
+            }
 
             vertices.AddRange(subVertices);
             colors.AddRange(subColors);
             triangles.AddRange(subIndices);
 
-            subPolygon.Dispose();
+            subDelaunay.Dispose();
+            subShape.Dispose();
+            points.Dispose();
         }
 
         mesh.vertices = vertices.ToArray();
@@ -75,19 +92,8 @@ public class PolygonsTest : MonoBehaviour {
             polygon.GetComponent<MeshFilter>().sharedMesh = mesh;    
         }
 
-        list.Dispose();
-    }
-
-    private Color[] ColorsArray(int index, int length) {
-        var colors = new Color[length];
-
-        var color = aColors[index % aColors.Length];
-            
-        for (int j = 0; j < length; ++j) {
-            colors[j] = color;
-        }
-
-        return colors;
+        polygons.Dispose();
+        shape.Dispose();
     }
 
 }
